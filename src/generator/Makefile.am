@@ -1,0 +1,7 @@
+
+GENERATOR_TOOL = generator_tool$(EXEEXT_FOR_BUILD)
+
+$(GENERATOR_TOOL) : generator.c
+	$(AM_V_GEN) $(CC_FOR_BUILD) generator.c -o $(GENERATOR_TOOL)
+
+CLEANFILES = $(GENERATOR_TOOL)

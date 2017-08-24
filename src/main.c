@@ -4,7 +4,6 @@
 
 int main(int argc, char *argv[])
 {
-    // printf("Test: %d\n", getGeneratedValue());
-    printf("Dumb test first\n");
+    printf("Test: %d\n", getGeneratedValue());
     return 0;
 }

@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    fprintf(generated, "int generatedValue() { return 1234; }\n");
+    fprintf(generated, "int getGeneratedValue() { return 1234; }\n");
 
     fclose(generated);
 
