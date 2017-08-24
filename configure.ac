@@ -30,7 +30,7 @@ AC_OUTPUT(src/Makefile src/generator/Makefile)
 # code in here too.
 echo ""
 echo "----------------------------------------------------------------------"
-echo "  ExpiredPopsicle's sanity check time"
+echo "  ExpiredPopsicle's cross-compile sanity check time"
 echo "----------------------------------------------------------------------"
 echo "  CC for build: $CC_FOR_BUILD"
 echo "  CC for host:  $CC"
@@ -40,5 +40,6 @@ echo "  host_os:      $host_os"
 echo "  build:        $build"
 echo "  build_cpu:    $build_cpu"
 echo "  build_os:     $build_os"
+echo "  prefix:       $prefix"
 echo ""
 
