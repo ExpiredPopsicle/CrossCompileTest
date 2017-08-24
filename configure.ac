@@ -5,6 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT(crosscompiletest, 1.0, expiredpopsicle@gmail.com)
 AC_CONFIG_SRCDIR([src/generated.h])
 dnl AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE
 
 # Checks for programs.
 AC_PROG_CC
