@@ -11,3 +11,8 @@ aclocal.m4
 install-sh
 configure
 
+# Stuff produced by running ./configure
+Makefile
+config.log
+config.status
+.deps
