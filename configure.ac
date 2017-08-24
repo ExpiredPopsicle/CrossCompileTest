@@ -1,5 +1,6 @@
 AC_PREREQ([2.69])
 AC_INIT(crosscompiletest, 1.0, expiredpopsicle@gmail.com)
+AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_SRCDIR([src/generated.h])
 AM_INIT_AUTOMAKE
 
