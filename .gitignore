@@ -16,3 +16,9 @@ Makefile
 config.log
 config.status
 .deps
+
+# Stuff produced by an actual build
+*.o
+src/generator/generator_tool
+src/generated.c
+src/crosscompiletest
