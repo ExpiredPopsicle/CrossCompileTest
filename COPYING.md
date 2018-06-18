@@ -1,4 +1,4 @@
-Copyright (c) 2017 Clifford Jolly <expiredpopsicle@gmail.com>
+Copyright (c) 2017 Kiri Jolly <expiredpopsicle@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
